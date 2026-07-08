@@ -1,0 +1,5 @@
+# .gitignore — 防止把密码和临时文件上传到 GitHub
+.env
+__pycache__/
+*.pyc
+.venv/
