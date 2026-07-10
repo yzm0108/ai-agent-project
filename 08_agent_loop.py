@@ -68,10 +68,10 @@ TOOLS = [
         "type": "function",
         "function": {
             "name": "search_knowledge",
-            "description": "在知识库里搜索相关内容。适合查询事实、概念、人物。",
-            "parameters": {
-                "type": "object",
-                "properties": {
+            "description": "在知识库里搜索相关内容。适合查询事实、概念、人物。",#description描述
+            "parameters": {                                                 #parameters参数设置
+                "type": "object",    
+                "properties": {   
                     "query": {"type": "string", "description": "搜索关键词或问题"},
                 },
                 "required": ["query"],
